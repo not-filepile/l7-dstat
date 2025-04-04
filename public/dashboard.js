@@ -1,4 +1,4 @@
-const socket = io("");
+const socket = io("http://a1.filepile.xyz:3001");
 socket.on('connect', () => {
     console.log('Connected to server');
 });
